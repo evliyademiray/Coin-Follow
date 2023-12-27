@@ -1,9 +1,15 @@
-# React + Vite
+#Coin-Follow
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is Coin Follow project created by React Vite.
 
-Currently, two official plugins are available:
+-Consider to MVC (Model-View-Controller) design pattern.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# Coin-Follow
+-Used Axios, Chart.js, Formik, Millify, React-chartjs-2, React-Router-Dom, React-Icons and yup libraries.
+
+-Used Bootstrap for styling
+
+-There is two pages, first one Sing In, second one is MainPage.
+
+--In Sing In page, used formik to create inputs, used yup for validation, used regex for parameters. After the sing in, owing to the react-router-dom, You'll go Mainpage.
+
+--In this page, you see coins, coin cards and more button. If you click coins, you'll see couple of detail about coin and history chart (Daily) of coin in two different style.
